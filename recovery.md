@@ -1,7 +1,7 @@
 1. Попытка переподключить старого мастера
-   ```
+```
 repmgr node rejoin -f /etc/repmgr/15/repmgr.conf -d 'host=master_host dbname=repmgr user=repmgr' --force-rewind --verbose
-   ```
+```
 
 Если ошибка вида
 ```
